@@ -1,0 +1,6 @@
+x = float(4)
+q = int("33")
+a = str(33)
+z = float("44.5")
+w = str("frf34")
+s = int(555.6)
