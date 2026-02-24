@@ -33,7 +33,7 @@ def countdown(n):
 
 # TESTING PART
 
-if name == "__main__":
+if __name__ == "__main__":
 
     print("1) Squares up to N:")
     n = int(input("Enter N: "))
