@@ -6,11 +6,11 @@ connection = {
     "user": "postgres",
     "password": "Niyaz015016"
 }
-a, b = input().split()
+a, c, b = input().split()
 try:
     conn = psycopg2.connect(**connection)
     cur = conn.cursor()
-    cur.execute("INSERT INTO phonebook (name, number) VALUES (%s, %s);", (a, b))
+    cur.execute("INSERT INTO phonebook (name, address, number) VALUES (%s, %s, %s);", (a, c, b))
     conn.commit()
     print("Info is added")
 except Exception as error:

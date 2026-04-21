@@ -1,7 +1,6 @@
 from connect import connect
 import psycopg2
 #function 1
-a = input()
 def matching_results(part_of_name):
     conn = connect()
     try:

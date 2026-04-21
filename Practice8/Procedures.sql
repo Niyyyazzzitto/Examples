@@ -50,11 +50,11 @@ END;
 $$;
 
 --procedure 3
-CREATE OR REPLACE PROCEDURE deleting(usernames)
+CREATE OR REPLACE PROCEDURE deleting(p_username TEXT)
 LANGUAGE plpgsql
 AS $$
 BEGIN
-    DELETE FROM phonebook
-    WHERE name = username;
+    DELETE FROM phonebook 
+    WHERE name = p_username; -- Теперь база точно знает, что p_username - это наш ввод
 END;
 $$;
