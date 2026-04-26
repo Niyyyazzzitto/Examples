@@ -1,0 +1,10 @@
+[
+    {
+        "name": "Алех",
+        "email": "alex@gmail.com",
+        "birthday": null,
+        "group": "Friends",
+        "phone": "87771234567",
+        "type": "mobile"
+    }
+]
