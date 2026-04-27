@@ -109,7 +109,7 @@ while True:
                     text_input = text_input[:-1]
                 else:
                     text_input += event.unicode
-            continue # Пропускаем остальные события, пока печатаем
+            continue
 
         # НАЖАТИЕ КНОПОК КЛАВИАТУРЫ
         if event.type == pygame.KEYDOWN:

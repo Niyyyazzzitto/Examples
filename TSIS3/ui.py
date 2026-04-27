@@ -6,7 +6,7 @@ big_font = pygame.font.SysFont("Verdana", 40)
 small_font = pygame.font.SysFont("Verdana", 16)
 
 def draw_text(surface, text, font_obj, color, center_pos):
-    """Удобная функция для вывода текста по центру"""
+    """Функция для вывода текста по центру"""
     text_surface = font_obj.render(text, True, color)
     rect = text_surface.get_rect(center=center_pos)
     surface.blit(text_surface, rect)

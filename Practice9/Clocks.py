@@ -54,7 +54,6 @@ while running:
     clock_rect = clock.get_rect(center=center)
     screen.blit(clock, clock_rect)
     
-    # Отрисовываем руки-стрелки
     screen.blit(rotated_right, right_rect)
     screen.blit(rotated_left, left_rect)
 
